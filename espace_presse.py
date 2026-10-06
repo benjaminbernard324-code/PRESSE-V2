@@ -79,6 +79,46 @@ RUBRIQUES = [
             ("Journal du Geek", "https://www.journaldugeek.com/feed/"),
         ]),
     ]),
+    ("🔬 Sciences", [
+        ("🇫🇷 En français", [
+            ("Futura Sciences", "https://www.futura-sciences.com/rss/actualites.xml"),
+            ("Le Monde Sciences", "https://www.lemonde.fr/sciences/rss_full.xml"),
+            ("The Conversation", "https://theconversation.com/fr/articles.atom"),
+        ]),
+        ("📄 Articles scientifiques (anglais)", [
+            ("Nature", "https://www.nature.com/nature.rss"),
+            ("ScienceDaily", "https://www.sciencedaily.com/rss/all.xml"),
+        ]),
+    ]),
+    ("🚀 Espace", par_source({
+        "Futura Espace": "https://www.futura-sciences.com/rss/espace/actualites.xml",
+        "NASA": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "ESA (Agence spatiale européenne)": "https://www.esa.int/rssfeed/Our_Activities/Space_News",
+        "Space.com": "https://www.space.com/feeds/all",
+    })),
+    ("📈 Bourse", par_source({
+        "Le Figaro Bourse": "https://www.lefigaro.fr/rss/figaro_bourse.xml",
+        "Les Echos Marchés": "https://www.lesechos.fr/rss/rss_finance-marches.xml",
+        "Yahoo Finance": "https://finance.yahoo.com/news/rssindex",
+        "CNBC": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+    })),
+    ("🎨 Dessin", par_source({
+        "This Is Colossal": "https://www.thisiscolossal.com/feed/",
+        "My Modern Met": "https://mymodernmet.com/feed/",
+        "Creative Bloq": "https://www.creativebloq.com/feed",
+        "ActuaBD": "https://www.actuabd.com/spip.php?page=backend",
+    })),
+    ("🛩️ Armée de l'Air et de l'Espace", [
+        ("🇫🇷 Défense (français)", [
+            ("Opex360 (Zone Militaire)", "https://www.opex360.com/feed/"),
+            ("Meta-defense", "https://www.meta-defense.fr/feed/"),
+            ("Air & Cosmos", "https://www.air-cosmos.com/rss"),
+        ]),
+        ("🌐 International (anglais)", [
+            ("Air & Space Forces Magazine", "https://www.airandspaceforces.com/feed/"),
+            ("Breaking Defense", "https://breakingdefense.com/feed/"),
+        ]),
+    ]),
     ("🍷 Bordeaux", par_source({
         "Sud Ouest Bordeaux": "https://www.sudouest.fr/gironde/bordeaux/rss.xml",
         "Rue89 Bordeaux": "https://rue89bordeaux.com/feed/",
